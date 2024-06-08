@@ -1,0 +1,19 @@
+name: BuildOFF
+version: 1.0.0
+author: Shiv99
+main: com.shiv99.BuildOFF.Main_class
+api-version: 1.20
+commands:
+  prompt:
+    description: Generates a random prompt
+    usage:  /<command> <arguments>
+    aliases: pmt
+permissions:
+  BuildOFF.admin:
+    description: Gives access to all BuildOFF commands
+    default: op
+  BuildOFF.user:
+    description: Gives access to basic BuildOFF commands
+    default: true
+
+
